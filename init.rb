@@ -1,4 +1,4 @@
-require File.expand_path('../lib/redmine', __FILE__)
+require 'redmine'
 require File.expand_path('../lib/already_read/issue_patch', __FILE__)
 require File.expand_path('../lib/already_read/issues_controller_patch', __FILE__)
 require File.expand_path('../lib/already_read/user_patch', __FILE__)
