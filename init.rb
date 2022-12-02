@@ -1,10 +1,10 @@
-require 'redmine'
-require 'already_read/issue_patch'
-require 'already_read/issues_controller_patch'
-require 'already_read/user_patch'
-require 'already_read/issue_query_patch'
-require 'already_read/menu_manager_patch'
-require 'already_read/view_hook'
+require File.expand_path('../lib/redmine', __FILE__)
+require File.expand_path('../lib/already_read/issue_patch', __FILE__)
+require File.expand_path('../lib/already_read/issues_controller_patch', __FILE__)
+require File.expand_path('../lib/already_read/user_patch', __FILE__)
+require File.expand_path('../lib/already_read/issue_query_patch', __FILE__)
+require File.expand_path('../lib/already_read/menu_manager_patch', __FILE__)
+require File.expand_path('../lib/already_read/view_hook', __FILE__)
 
 Redmine::Plugin.register :redmine_already_read do
   name 'Redmine Already Read plugin'
