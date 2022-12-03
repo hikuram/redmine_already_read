@@ -11,3 +11,6 @@ class IssuesController < ApplicationController
     end
   end
 end
+
+class AlreadyReadIssuesControllerPatch
+end

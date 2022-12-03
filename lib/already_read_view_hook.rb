@@ -3,3 +3,6 @@ class AlreadyReadListener < Redmine::Hook::ViewListener
     stylesheet_link_tag 'already_read', :plugin => 'redmine_already_read'
   end
 end
+
+class AlreadyReadViewHook
+end
