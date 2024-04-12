@@ -6,7 +6,7 @@ IssueQuery.add_available_column(QueryColumn.new(:already_read_date))
 
 module AlreadyReadIssueQueryPatch
     # 既読フィルタを追加
-    def available_filters
+    def available_filters_hoge
       return @available_filters if @available_filters
       super
 
