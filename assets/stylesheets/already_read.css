@@ -1,11 +1,11 @@
 span.ar_counter.unread {
-    background: darkorange;
+    background: transparent;
     border-radius: 5px 5px;
 }
 
 span.ar_counter.assigned_to_me {
     background: transparent;
-    border-radius: 6px 6px;
+    border-radius: 5px 5px;
 }
 
 tr.unread td.id:before {
